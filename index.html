@@ -74,6 +74,9 @@ footer ul{columns:2;column-gap:32px;padding-left:18px;margin:8px 0 0}footer li{m
 @media (max-width:820px){
  :root{--h:118px;--hs:300px;--hp:220px}.wrap{padding:0 16px}.hero{padding:44px 0 28px}
  .card,.sechead{grid-template-columns:1fr;gap:14px}.txt{position:static}.gal{position:static}
+ .gal,.gal.pair{flex-direction:column;flex-wrap:nowrap;gap:12px}
+ .gal .item,.gal.single .item,.gal.pair .item{flex:none;width:100%;max-width:100%}
+ .filler{display:none}
  .lb-stage{--pt:60px;--px:8px;--pb:8px}.lb-prev,.lb-next{width:38px!important;height:38px!important;background:rgba(0,0,0,.45)!important}
  .lb-prev{left:12px}.lb-next{right:12px}.lb-bar{padding:12px 16px 22px;flex-direction:column;gap:4px}
  footer ul{columns:1}
